@@ -1,0 +1,24 @@
+package week04;
+
+public class MathDemo {
+
+    public static int min(int a, int b) {
+        return (a < b) ? a : b;
+    }
+
+    public static int max(int a, int b) {
+        return (a > b) ? a : b;
+    }
+
+    public static int sum(int[] args) {
+        int total = 0;
+        for (int num : args) {
+            total += num;
+        }
+        return total;
+    }
+}
+
+// F) The advantage of defining these methods as static would be the fact that there is no need to create an object,
+// and you can call them directly by using the class names. Another advantage is because they do not belong to 
+// individual objects, they are memory efficient. 
