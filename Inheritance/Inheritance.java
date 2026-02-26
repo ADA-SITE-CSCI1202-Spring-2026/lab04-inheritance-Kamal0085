@@ -1,4 +1,4 @@
-package week04;
+package week04.Inheritance;
 
 public class Inheritance {
 
